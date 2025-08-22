@@ -1,187 +1,163 @@
 let catalogoDeProdutos = {
-    "produto-arthur-grande": { // Esta é a CHAVE, que corresponde ao seu data-produto-id
+    "produto-combopassaporte": { // Esta é a CHAVE, que corresponde ao seu data-produto-id
         tipo: "lanche",
-        nome: "Especial Arthur Grande",
-        preco: 55.00,
-        descricao: "Especial da casa, dividido em 4 pedaços e servem 4 pessoas.",
+        nome: "Combo Passaporte",
+        precoRiscado: 26.00,
+        preco: 22.00,
+        descricao: "Passaporte Acompanhado de Batata Frita + Caçulinha",
         ingredientes: [
-            "Pão Grande",
-            "Bacon",
-            "Calabresa",
-            "Frango Desfiado",
-            "Filé de Alcatra",
-            "2x Salsicha",
-            "2x Ovos",
-            "2x Hamburguer",
-            "2x Queijo",
-            "2x Presunto",
-            "Molho Rosé",
-            "Salada",
-            "Tomate"
-        ],
-        imagem: "imagens/lanches/especial4grande.png"
-    },
-
-    "produto-arthur-baby": {
-        tipo: "lanche",
-        nome: "Especial Arthur Baby",
-        preco: 40.00,
-        descricao: "Especial da casa, dividido em 2 pedaços e servem 2 pessoas.",
-        ingredientes: [
-            "Pão Grande",
-            "Bacon",
-            "Calabresa",
-            "Frango Desfiado",
-            "Filé de Alcatra",
-            "Salsicha",
-            "Ovos",
-            "Hamburguer",
-            "Queijo",
-            "Presunto",
-            "Molho Rosé",
-            "Salada",
-            "Tomate"
-        ],
-        imagem: "imagens/lanches/arthurbabyatt.png"
-    },
-
-    "produto-passaporte-carne": {
-        tipo: "lanche",
-        nome: "Passaporte de Carne",
-        preco: 17.00,
-        descricao: "Passaporte de carne super recheado",
-        ingredientes: [
-            "Pão Sedão",
             "Carne Moída",
             "Salsicha",
             "Tomate Picado Verde",
             "Milho e Ervilha",
-            "Queijo Ralado",
             "Katchup",
             "Maionese",
             "Batata Palha"
-            
+        ],
+        imagem: "imagens/lanches/"
+    },
+
+    "produto-comboburgao": {
+        tipo: "lanche",
+        nome: "Combo Burgão",
+        precoRiscado: 26.00,
+        preco: 20.00,
+        descricao: "X-Burguer Acompanhado de Batata Frita + Caçulinha",
+        ingredientes: [
+        "Hambúrguer",
+        "Queijo",
+        "Presunto",
+        "Tomate",
+        "Molho"
+        ],
+        imagem: "imagens/lanches/arthurbabyatt.png"
+    },
+
+    "produto-combofilezao": {
+        tipo: "lanche",
+        nome: "Combo FiléZão",
+        precoRiscado: 32.00,
+        preco: 27.00,
+        descricao: "X FiléZão Acompanhado de Batata Frita + Caçulinha",
+        ingredientes: [
+        "Filé de Alcatra",
+        "Queijo",
+        "Presunto",
+        "Tomate",
+        "Molho",
         ],
         imagem: "imagens/lanches/passaportecarne.png"
     },
 
-    "produto-passaporte-frango": {
+    "produto-filezaofrango": {
         tipo: "lanche",
-        nome: "Passaporte de Frango",
+        nome: "Combo FiléZão de Frango",
+        precoRiscado: 30.00,
         preco: 18.00,
-        descricao: "Passaporte de frango super recheado",
+        descricao: "FiléZão de Frango Acompanhado de Batata Frita + Caçulinha",
         ingredientes: [
-            "Pão Sedão",
-            "Frango Desfiado",
-            "Salsicha",
+            "Filé de Frango",
             "Tomate Picado Verde",
-            "Milho e Ervilha",
-            "Queijo Ralado",
-            "Katchup",
-            "Maionese",
-            "Batata Palha"
+            "Queijo",
+            "Presunto",
+            "Molho",
         ],
         imagem: "imagens/lanches/passaportefrango.png"
     },
 
-    "produto-xbacon": {
+    "produto-combo-segundafeira": {
         tipo: "lanche",
-        nome: "X-Bacon",
-        preco: 22.00,
-        descricao: "X-Bacon topadão.",
+        nome: "Segunda-Feira",
+        precoRiscado: 25.00,
+        preco: 18.00,
+        descricao: "Delecioso Passaporte + Caçulinha",
         ingredientes: [
-            "Pão",
-            "Bacon",
-            "Hambúrguer",
-            "Ovo",
-            "Queijo",
-            "Presunto",
-            "Molho Rosé",
-            "Salada"
+            "Carne Moída",
+            "Salsicha",
+            "Tomate Picado Verde",
+            "Milho e Ervilha",
+            "Katchup",
+            "Maionese",
+            "Batata Palha"
         ],
         imagem: "imagens/lanches/x-bacon.png"
     },
 
 
-    "produto-passaporte-carnesol": {
+    "produto-combo-tercafeira": {
         tipo: "lanche",
-        nome: "Passaporte de Carne de Sol",
+        nome: "Terça-Feira",
+        precoRiscado: 25.00,
         preco: 25.00,
-        descricao: "Passaporte de Carne de Sol super recheado",
+        descricao: "X-Burguer + Caçulinha",
         ingredientes: [ 
-            "Pão Sedão",
-            "Carne de Sol",
-            "Catupiry",
-            "Queijo Coalho",
-            "Salsicha",
-            "Tomate Picado Verde",
-            "Milho e Ervilha",
-            "Queijo Ralado",
-            "Ketchup",
-            "Maionese",
-            "Batata Palha",
+        "Hambúrguer",
+        "Queijo",
+        "Presunto",
+        "Ovo",
+        "Tomea",
+        "Molho"
         ],
         imagem: "imagens/lanches/passaportecarnesol.png"
     },
 
-    "produto-passaporte-misto": {
+    "produto-combo-quartafeira": {
       tipo: "lanche",
-      nome: "Passaporte de Misto",
-      preco: 24.00,
-      descricao: "Passaporte de Misto super recheado",
+      nome: "Quarta-Feira",
+      precoRiscado: 26.00,
+      preco: 22.00,
+      descricao: "Filé de Carne + Caçulinha",
       ingredientes: [
-        "Pão Sedão",
-        "Carne Moída",
-        "Frango Desfiado",
-        "Salsicha",
-        "Tomate Picado Verde",
-        "Milho e Ervilha",
-        "Queijo Ralado",
-        "Kettchup",
-        "Maionese",
-        "Batata Palha",
+        "Filé de Alcatra",
+        "Queijo",
+        "Presunto",
+        "Tomate",
+        "Molho",
       ],
       imagem: "imagens/lanches/passaportemisto.png"
     },
 
-    "produto-xtudo": {
+    "produto-combo-quintafeira": {
       tipo: "lanche",
-      nome: "X-Tudo",
-      preco: 34.00,
-      descricao: "X-Tudo Super recheado. Serve 2 pessoas.",
+      nome: "Quinta-Feira",
+      precoRiscado: 25.00,
+      preco: 20.00,
+      descricao: "Filé de Frango + Caçulinha",
       ingredientes: [
-        "Pão Grande",
-        "Bacon",
-        "Calabresa",
-        "Frango Desfiado",
-        "Salsicha",
-        "Ovo",
-        "Hamburguer",
-        "Queijo",
-        "Presunto",
-        "Molho Rosé",
-        "Salada"
+            "Filé de Frango",
+            "Tomate Picado Verde",
+            "Queijo",
+            "Presunto",
+            "Molho",
       ],
       imagem: "imagens/lanches/x-tudo.jpg"
     },
 
-    "produto-misto-quente": {
+    "produto-garotoVIP": {
       tipo: "lanche",
       nome: "Misto Quente",
-      preco: 12.00,
+      precoRiscado: 37.00,
+      preco: 33.00,
       descricao: "Misto Quente naquele modelo",
       ingredientes: [
-        "Pão Assado na chapa",
-        "2 Fatias de Queijo",
-        "2 Fatias de Presunto"
+        "Queijo",
+        "Presunto",
+        "Filé de Frango",
+        "Filé de Alcatra",
+        "Bacon",
+        "Ovo",
+        "Hambúrguer",
+        "Tomate",
+        "Molho"
       ],
       imagem: "imagens/lanches/mistoquente.png"
     },
 
-    "produto-queijo-quente": {
+    "produto-garotoVIPEspecial": {
       tipo: "lanche",
-      nome: "Queijo Quente",
-      preco: 12.00,
+      nome: "Garoto VIP Especial",
+      precoRiscado: 40.00,
+      preco: 36.00,
       descricao: "Queijo Quente naquele padrão",
       ingredientes: [
         "Pão Assado na chapa",
@@ -190,146 +166,123 @@ let catalogoDeProdutos = {
       imagem: "imagens/lanches/queijo-quente.jpg"
     },
 
-    "produto-americano": {
+    "produto-passaporte-carne": {
       tipo: "lanche",
-      nome: "Americano",
-      preco: 16.00,
-      descricao: "Americano clássico naquele padrão",
+      nome: "Passaporte de Carne",
+      precoRiscado: 20.00,
+      preco: 17.00,
+      descricao: "Passaporte de carne super recheado",
       ingredientes: [ 
-        "Pão",
-        "Ovo",
-        "Queijo",
-        "Presunto",
-        "Molho Rosé",
-        "Salada"
+            "Carne Moída",
+            "Salsicha",
+            "Tomate",
+            "Batata Palha"
       ],
       imagem: "imagens/lanches/americano2.png"
     },
 
-    "produto-bauru": {
+    "produto-passaporte-frango": {
       tipo: "lanche",
-      nome: "Baurú",
-      preco: 16.00,
+      nome: "Passaporte de Frango",
+      precoRiscado: 24.00,
+      preco: 19.00,
       descricao: "Baurú daquele jeito",
       ingredientes: [
-        "Pão",
-        "Salsicha",
-        "Queijo",
-        "Presunto",
-        "Molho Rosé",
-        "Salada",
+            "Frango Desfiado",
+            "Salsicha",
+            "Tomate",
+            "Batata Palha"
     ],
       imagem: "imagens/lanches/bauruatt.png"
     },
 
-    "produto-hamburguer": {
+    "produto-passaporte-misto": {
       tipo: "lanche",
-      nome: "Hambúrguer",
-      preco: 17.00,
+      nome: "Passaporte de Misto",
+      precoRiscado: 26.00,
+      preco: 21.00,
       descricao: "Hambúrguer daquele jeito",
       ingredientes: [
-        "Pão",
-        "Hambúrguer",
-        "Queijo",
-        "Presunto",
-        "Molho Rosé",
-        "Salada"
+            "Carne Moída",
+            "Frango Desfiado",
+            "Salsicha",
+            "Tomate",
+            "Batata Palha"
     ],
       imagem: "imagens/lanches/hamburgueratt.png"
     },
 
-    "produto-xburguer": {
+    "produto-passaporte-bacon": {
       tipo: "lanche",
-      nome: "X-Burguer",
-      preco: 18.00,
+      nome: "Passaporte de Bacon",
+      precoRiscado: 26.00,
+      preco: 21.00,
       descricao: "X Burguersão daquele jeito",
       ingredientes: [
-        "Pão",
-        "Hambúrguer",
-        "Queijo",
-        "Presunto",
-        "Ovo",
-        "Molho Rosé",
-        "Salada"
+            "Carne Moída ou Frango Desfiado",
+            "Bacon",
+            "Tomate",
+            "Batata Palha"
     ],
       imagem: "imagens/lanches/x-burguer.png"
     },
 
-    "produto-xsalsicha": {
+    "produto-passaporte-calabresa": {
       tipo: "lanche",
-      nome: "X-Salsicha",
-      preco: 18.00,
-      descricao: "X Salsichão daquele jeito",
+      nome: "Passaporte de Calabresa",
+      precoRiscado: 26.00,
+      preco: 21.00,
+      descricao: "Passaporte de Calabresa super recheado",
       ingredientes: [
-        "Pão",
-        "Salsicha",
+            "Frango Desfiado",
+            "Calabresa",
+            "Milho e Ervilha",
+            "Tomate",
+            "Batata Palha"
+    ],
+      imagem: "imagens/lanches/x-salsicha.png"
+    },
+
+    "produto-xburguer": {
+        tipo: "lanche",
+        nome: "X-Burguer",
+        precoRiscado: 20.00,
+        preco: 15.00,
+        descricao: "X-Burguersão super recheado.",
+        ingredientes: [
         "Hambúrguer",
         "Queijo",
         "Presunto",
-        "Molho Rosé",
-        "Salada"
-    ],
-      imagem: "imagens/lanches/x-salsicha.png"
+        "Tomate",
+        "Molho"
+        ],
+        imagem: "imagens/lanches/arthurbabyatt.png"
     },
 
     "produto-minuano": {
       tipo: "lanche",
       nome: "Minuano",
-      preco: 20.00,
+      precoRiscado: 20.00,
+      preco: 17.00,
       descricao: "Minuano clássico naquele padrão",
       ingredientes: [
-        "Pão",
+        "Hambúrguer",
         "Ovo",
-        "Salsicha",
         "Hambúrguer",
         "Queijo",
-        "Presunto",
-        "Molho Rosé",
-        "Salada"
+        "Tomate",
+        "Molho"
     ],
       imagem: "imagens/lanches/minuano1.png"
     },
 
-    "produto-xfrango": {
-      tipo: "lanche",
-      nome: "X-Frango",
-      preco: 22.00,
-      descricao: "X-Frango topadão",
-      ingredientes: [
-        "Pão",
-        "Frango Desfiado",
-        "Catupiry",
-        "Milho",
-        "Queijo",
-        "Presunto",
-        "Molho Rosé",
-        "Salada"
-    ],
-      imagem: "imagens/lanches/xfrango.png"
-    },
-
-    "produto-XCarneDeSol": {
-      tipo: "lanche",
-      nome: "X-Carne de Sol",
-      preco: 22.00,
-      descricao: "X-Carne de Sol topadão",
-      ingredientes: [
-        "Pão",
-        "Carne de Sol Desfiada",
-        "Catupiry",
-        "Queijo",
-        "Presunto"
-    ],
-      imagem: "imagens/lanches/carnedesolcaipira.png"
-    },
-
-    "produto-xcalabresa": {
+        "produto-xcalabresa": {
       tipo: "lanche",
       nome: "X-Calabresa",
+      precoRiscado: 26.00,
       preco: 20.00,
       descricao: "X-Calabresa topadão",
       ingredientes: [
-        "Pão",
         "Calabresa",
         "Ovo",
         "Queijo",
@@ -340,112 +293,153 @@ let catalogoDeProdutos = {
       imagem: "imagens/lanches/xcalabresa.png"
     },
 
-    "produto-FrangoSalada": {
+    "produto-xalcatra": {
       tipo: "lanche",
-      nome: "Frango Salada",
-      preco: 22.00,
-      descricao: "Frango Salada naquele padrão",
+      nome: "X-Alcatra",
+      precoRiscado: 30.00,
+      preco: 27.00,
+      descricao: "X-Alcatra topadão",
       ingredientes: [
-        "Pão",
-        "Frango Desfiado",
-        "Hambúrguer",
-        "Queijo",
-        "Presunto",
-        "Molho Rosé",
-        "Salada"
-      ],
-      imagem: "imagens/lanches/frangosalada.png"
-    },
-
-    "produto-xfile": {
-      tipo: "lanche",
-      nome: "X-Filé",
-      preco: 23.00,
-      descricao: "X-Filé topadão",
-      ingredientes: [
-        "Pão",
-        "Filé de Alcatra",
+        "Filé de Carne",
         "Ovo",
         "Queijo",
         "Presunto",
-        "Ervilha",
-        "Molho Rosé",
-        "Salada"
+        "Bacon",
+        "Tomate",
+        "Molho",
+    ],
+      imagem: "imagens/lanches/xfrango.png"
+    },
+
+      "produto-xfile": {
+      tipo: "lanche",
+      nome: "X-Filé",
+      precoRiscado: 28.00,
+      preco: 25.00,
+      descricao: "X-Filé topadão",
+      ingredientes: [
+        "Filé de Carne",
+        "Queijo",
+        "Presunto",
+        "Tomate",
+        "Molho"
       ],
       imagem: "imagens/lanches/xfile.png"
     },
 
-    "produto-filebacon": {
+      "produto-xfile-especial": {
       tipo: "lanche",
-      nome: "Filé Bacon",
-      preco: 26.00,
-      descricao: "Filé-Bacon topadão",
+      nome: "X-Filé",
+      precoRiscado: 32.00,
+      preco: 28.00,
+      descricao: "X-Filé topadão",
       ingredientes: [
-        "Pão",
-        "Filé de Alcatra",
+        "Filé de Carne",
+        "Ovo",
+        "Queijo",
+        "Presunto",
         "Bacon",
-        "Ovo",
-        "Queijo",
-        "Presunto",
-        "Molho Rosé",
-        "Salada"
-      ],
-      imagem: "imagens/lanches/filebacon.png"
-    },
-
-    "produto-frangobresa": {
-      tipo: "lanche",
-      nome: "Frango-Bresa",
-      preco: 25.00,
-      descricao: "Frango-Bresa topadão",
-      ingredientes: [
-        "Pão",
-        "Frango Desfiado",
         "Calabresa",
+        "Tomate",
+        "Molho"
+      ],
+      imagem: "imagens/lanches/xfile.png"
+    },
+
+      "produto-xcoracao": {
+      tipo: "lanche",
+      nome: "X-Coração",
+      precoRiscado: 34.00,
+      preco: 30.00,
+      descricao: "X-Coração naquele padrão",
+      ingredientes: [
+        "Coração",
         "Ovo",
         "Queijo",
         "Presunto",
-        "Molho Rosé",
-        "Salada"
+        "Bacon",
+        "Hambúrguer",
+        "Tomate",
+        "Molho"
       ],
-      imagem: "imagens/lanches/frangobresa.png"
+      imagem: "imagens/lanches/xfile.png"
     },
 
-    "produto-filefrango": {
+      "produto-filefrango": {
       tipo: "lanche",
-      nome: "Filé-Frango",
-      preco: 26.00,
+      nome: "Filé de Frango",
+      precoRiscado: 26.00,
+      preco: 22.00,
       descricao: "Filé-Frango topadão",
       ingredientes: [
-        "Pão.",
-        "Filé de Alcatra",
-        "Frango Desfiado",
+        "Filé de Frango",
         "Queijo",
         "Presunto",
-        "Molho Rosé",
-        "Salada"
+        "Ovos",
+        "Molho",
+        "Tomate"
       ],
       imagem: "imagens/lanches/xfrango.png"
     },
 
-    "produto-CarneDeSolCaipira": {
+      "produto-filefrango-especial": {
       tipo: "lanche",
-      nome: "Carne de Sol Caipira",
-      preco: 25.00,
-      descricao: "Carne de Sol Caipira topadão",
+      nome: "Filé de Frango Especial",
+      precoRiscado: 30.00,
+      preco: 26.00,
+      descricao: "Filé-Frango Especial topadão",
       ingredientes: [
-        "Pão",
-        "Carne de Sol Desfiada",
-        "Catupiry",
-        "Queijo Coalho",
-        "Milho e Ervilha",
-        "Molho Rosé",
-        "Salada"
+        "Filé de Frango",
+        "Queijo",
+        "Presunto",
+        "Ovos",
+        "Bacon",
+        "Hambúrguer",
+        "Molho",
+        "Tomate"
       ],
-      imagem: "imagens/lanches/carnedesolcaipira.png"
+      imagem: "imagens/lanches/xfrango.png"
     },
 
-    "produto-cocacola250ml": {
+
+
+    "produto-eggbacon": {
+      tipo: "lanche",
+      nome: "Egg-Bacon",
+      precoRiscado: 26.00,
+      preco: 22.00,
+      descricao: "Egg-Bacon topadão",
+      ingredientes: [
+        "Bacon",
+        "Ovo",
+        "Queijo",
+        "Presunto",
+        "Molho",
+        "Tomate"
+      ],
+      imagem: "imagens/lanches/filebacon.png"
+    },
+    
+        "produto-cocamenor": {
+        tipo: "bebida",
+        nome: "Coca-Cola em lata" ,
+        precoRiscado: 5.00,
+        preco: 4.00 ,
+        descricao: "Coca-Cola Caçulinha",
+        imagem: "imagens/bebidas/cocacola350ml.png"
+    },
+
+        "produto-guaranamenor": {
+        tipo: "bebida",
+        nome: "Guaraná Caçulinha" ,
+        precoRiscado: 5.00,
+        preco: 4.00 ,
+        descricao: "Guaraná Caçulinha",
+        imagem: "imagens/bebidas/cocacola350ml.png"
+    },
+
+
+    "produto-cocacolalata": {
         tipo: "bebida",
         nome: "Coca-Cola em lata" ,
         preco: 6.00 ,
@@ -453,26 +447,29 @@ let catalogoDeProdutos = {
         imagem: "imagens/bebidas/cocacola350ml.png"
     },
 
-    "produto-guarana250ml": {
+    "produto-guaranalata": {
       tipo: "bebida",
       nome: "Guaraná em lata",
-      preco: 6.00,
+      precoRiscado: 8.00,
+      preco: 7.00,
       descricao: "Guanará em lata de 250 ml",
       imagem: "imagens/bebidas/GuaranaLataATTpngSFundo.png"
     },
 
-    "produto-fanta250ml": {
+    "produto-fantalata": {
       tipo: "bebida",
       nome: "Fanta 250ml",
-      preco: 6.00,
+      precoRiscado: 8.00,
+      preco: 7.00,
       descricao: "Fanta em lata",
       imagem: "imagens/bebidas/Fantalata350ml.png"
     },
 
-    "produto-soda250ml": {
+    "produto-sodalata": {
       tipo: "bebida",
       nome: "Soda 250ml",
-      preco: 6.00,
+      precoRiscado: 8.00,
+      preco: 7.00,
       descricao: "Soda em lata",
       imagem: "imagens/bebidas/sodalata.png"
     },
@@ -480,6 +477,7 @@ let catalogoDeProdutos = {
     "produto-cocacola1L": {
       tipo: "bebida",
       nome: "Coca-Cola 1L",
+      precoRiscado: 12.00,
       preco: 10.00,
       descricao: "Coca-Cola 1L",
       imagem: "imagens/bebidas/Coca1LA.png"
@@ -488,7 +486,8 @@ let catalogoDeProdutos = {
     "produto-guarana1L": {
       tipo: "bebida",
       nome: "Guaraná 1L",
-      preco: 8.00,
+      precoRiscado: 12.00,
+      preco: 10.00,
       descricao: "Guaraná 1L",
       imagem: "imagens/bebidas/guarana1LA.png"
     },
@@ -496,7 +495,8 @@ let catalogoDeProdutos = {
     "produto-fanta1L": {
       tipo: "bebida",
       nome: "Fanta 1L",
-      preco: 8.00,
+      precoRiscado: 11.00,
+      preco: 10.00,
       descricao: "Fanta 1L",
       imagem: "imagens/bebidas/fanta1LA.png"
     },
@@ -504,42 +504,11 @@ let catalogoDeProdutos = {
     "produto-soda1L": {
       tipo: "bebida",
       nome: "Soda 1L",
-      preco: 8.00,
+      precoRiscado: 11.00,
+      preco: 10.00,
       descricao: "Soda 1L",
       imagem: "imagens/bebidas/soda1LA.png"
     },
-
-    "produto-cocacola2L": {
-      tipo: "bebida",
-      nome: "Coca-Cola 2L",
-      preco: 13.00,
-      descricao: "Coca-Cola 2L",
-      imagem: "imagens/bebidas/Coca2LA.png"
-    },
-
-    "produto-guarana2L": {
-      tipo: "bebida",
-      nome: "Guaraná 2L",
-      preco: 12.00,
-      descricao: "Guaraná 2L",
-      imagem: "imagens/bebidas/Guarana2LA.png"
-    },
-
-    "produto-fanta2L": {
-      tipo: "bebida",
-      nome: "Fanta 2L",
-      preco: 12.00,
-      descricao: "Fanta 2L",
-      imagem: "imagens/bebidas/Fanta2LA.png"
-    },
-
-    "produto-soda2L": {
-      tipo: "bebida",
-      nome: "Soda 2L",
-      preco: 12.00,
-      descricao: "Soda 2L",
-      imagem: "imagens/bebidas/soda2LA.png"
-    }
 
 }
 
