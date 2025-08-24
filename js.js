@@ -1483,7 +1483,7 @@ if (textoFormaPagamento === 'Dinheiro' && valorTroco > 0) {
 }
 
     // --- 8. Envia mensagem para WhatsApp ---
-    const numeroWhatsApp = '5582999261614';
+    const numeroWhatsApp = '5582987165196';
     const linkWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagemWhatsApp)}`;
     window.open(linkWhatsApp, '_blank');
 
