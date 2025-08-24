@@ -76,7 +76,7 @@ span {
     border-top-right-radius: 20px; /* canto superior direito */
     border-bottom-left-radius: 0;  /* canto inferior esquerdo */
     border-bottom-right-radius: 0; /* canto inferior direito */ 
-    background-color: #EC6418;
+    background-color: #FD4B01;
     position: relative;
     margin-top: -30px;
     z-index: 2;
@@ -108,7 +108,7 @@ span {
     margin: auto;
     flex-direction: column;
     align-items: center;
-    background-color: #EC6418;
+    background-color: #FD4B01;
     padding-bottom: 10px;
     border-radius: 10px;
     margin-top: 40px;
@@ -208,7 +208,7 @@ span {
 
 #titulo-passaporte, #titulo-sanduiches, #titulo-especiais, #titulo-bebidas {
     display: inline-block;
-    background-color: #EC6418; /* Cor de fundo para CADA item */
+    background-color: #FD4B01; /* Cor de fundo para CADA item */
     color: white;
     font-size: 0.7rem;
     border-radius: 5px; /* Borda arredondada para CADA item */
@@ -269,7 +269,7 @@ span {
     margin-top: 10px;
     padding: 8px;
     color: white;
-    background-color: #EC6418;
+    background-color: #FD4B01;
     font-size: 0.8rem;
     text-align: center;
     border-radius: 5px;
@@ -482,8 +482,8 @@ span {
     letter-spacing: 0.5px;
     border: none;
     border-radius: 15px;
-    background-color: #EC6418;
-    color: black;
+    background-color: #FD4B01;
+    color: white;
     padding: 3px 5px;
     cursor: pointer;
     white-space: nowrap;
@@ -587,7 +587,7 @@ footer {
   position: fixed; /* Isso tira o elemento do fluxo normal e o posiciona em relação à viewport */
   bottom: 0; /* Garante que ele fique fixo na parte inferior da tela */
   width: 100%;  /* Faz com que ele ocupe toda a largura da tela */
-  background-Color: #EC6418; /* Mantenha a cor de fundo, ou defina uma se ainda não tiver */
+  background-Color: #FD4B01; /* Mantenha a cor de fundo, ou defina uma se ainda não tiver */
   padding: 10px 0; /* Ajuste o padding conforme necessário para dar espaço interno */
   z-index: 1000; /* Garante que o footer fique acima de outros elementos na página */
 
@@ -597,7 +597,6 @@ footer {
 /* MENU INFERIOR */
 
 .navbarinferior {
-    background-Color: #EC6418;
     font-size: 1rem;
     display: flex;
     flex-direction: row;
@@ -943,7 +942,7 @@ footer {
 
 /*  MODAL DO CARRINHO: */
 .modal-content-carrinho {
-    background-color: #EC6418;
+    background-color: #FD4B01;
     margin: 15% auto; /* Centraliza o modal na tela */
     padding: 20px;
     max-width: 500px; /* Largura máxima do modal */
@@ -963,7 +962,7 @@ footer {
 
 
 #ModalCarrinho {
-    background-Color: #EC6418;
+    background-Color: #FD4B01;
     width: 100vw;
     height: 100vh;
     position: fixed;
@@ -1388,7 +1387,7 @@ footer {
 
 /* Conteúdo do Modal de Dados - Onde está o formulário */
 .ConteudoModalDados {
-    background-color: #EC6418; /* O fundo que você quer para o formulário */
+    background-color: #FD4B01; /* O fundo que você quer para o formulário */
     color: black;
     margin: 0;           /* Sem margens externas, preenche o pai */
     padding: 20px;       /* Padding interno para o conteúdo do formulário */
@@ -1431,7 +1430,7 @@ footer {
     margin: 0;  /* Remova qualquer margem que possa existir aqui por padrão */
     overflow-y: auto; /* Se o formulário for muito longo, ele rola internamente */
     box-sizing: border-box;
-    background-color: #EC6418;
+    background-color: #FD4B01;
 }
 
 
@@ -1492,14 +1491,14 @@ footer {
 /* MODAL FINALIZAR PEDIDO */
 
 #ModalFazerPedido {
-    background-color: #EC6418;
+    background-color: #FD4B01;
     display: none;
     z-index: 1001;
     /*border: solid 1px;*/
 }
 
 .ContModalFazerPedido {
-    background-color: #EC6418;
+    background-color: #FD4B01;
     color: black;
     margin: auto; 
     padding: 20px;
@@ -1530,7 +1529,7 @@ footer {
 
 
 #voltarPedido {
-    background-color: #EC6418;
+    background-color: #FD4B01;
     position: absolute;
     left: 5px;
     top: 0px;
@@ -1555,7 +1554,6 @@ footer {
 #Pedido {
     margin-top: 25px;
     height: 100%;
-    background-color: #EC6418;
     
 }
 
@@ -1804,7 +1802,7 @@ footer {
   position: fixed; /* Isso tira o elemento do fluxo normal e o posiciona em relação à viewport */
   bottom: 0; /* Garante que ele fique fixo na parte inferior da tela */
   width: 100%;  /* Faz com que ele ocupe toda a largura da tela */
-  background-Color: #EC6418; /* Mantenha a cor de fundo, ou defina uma se ainda não tiver */
+  background-Color: #FD4B01; /* Mantenha a cor de fundo, ou defina uma se ainda não tiver */
   padding: 10px 0; /* Ajuste o padding conforme necessário para dar espaço interno */
   z-index: 1000; /* Garante que o footer fique acima de outros elementos na página */
 
@@ -1845,7 +1843,7 @@ footer {
         font-family: "Poppins", sans-serif;
         font-weight: 700;
         font-style: normal;
-        background-color: #EC6418;
+        background-color: #FD4B01;
         color: white;
         border-radius: 5px;
         padding: 5px;
