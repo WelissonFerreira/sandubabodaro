@@ -1641,6 +1641,8 @@ if (textoFormaPagamento === 'Dinheiro' && valorTroco > 0) {
     })
 
 
+    // BOTÃO QRCODE
+
     let qrcode = document.getElementById('qrcode')
     let modalQRCode = document.getElementById('ModalQRCode')
     qrcode.addEventListener('click', function(event) {
@@ -1654,6 +1656,25 @@ if (textoFormaPagamento === 'Dinheiro' && valorTroco > 0) {
     botaofecharQRCODE.addEventListener('click', function() {
       modalQRCode.style.display = 'none'
     })
+
+    // BOTÃO ZAP
+
+    let btnZap = document.getElementById('botaozap')
+    btnZap.addEventListener('click', function() {
+
+    const numeroWhatsApp = '5582987165196'; // Exemplo: 55 = Brasil, 82 = DDD, 999261614 = número
+
+    // 2. Crie a mensagem (opcional, mas muito útil)
+    const mensagemPadrao = 'Olá, gostaria de fazer um pedido!';
+
+    // 3. Monte o link completo para o WhatsApp
+    const linkWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagemPadrao)}`;
+
+    // 4. Abra o link em uma nova aba
+    window.open(linkWhatsApp, '_blank');
+
+    })
+
 
     /* MENU CATEGORIAS */
     
