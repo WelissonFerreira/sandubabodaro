@@ -943,7 +943,7 @@ footer {
 /*  MODAL DO CARRINHO: */
 .modal-content-carrinho {
     background-color: #FD4B01;
-    margin: 15% auto; /* Centraliza o modal na tela */
+    margin: auto; /* Centraliza o modal na tela */
     padding: 10px;
     padding-bottom: 80px;
     max-width: 600px; /* Largura máxima do modal */
