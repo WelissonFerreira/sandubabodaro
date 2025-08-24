@@ -14,7 +14,7 @@ let catalogoDeProdutos = {
             "Maionese",
             "Batata Palha"
         ],
-        imagem: "imagens/lanches/"
+        imagem: "imagens/combos/combopassaporte.png"
     },
 
     "produto-comboburgao": {
@@ -30,7 +30,7 @@ let catalogoDeProdutos = {
         "Tomate",
         "Molho"
         ],
-        imagem: "imagens/lanches/arthurbabyatt.png"
+        imagem: "imagens/combos/comboburgao.png"
     },
 
     "produto-combofilezao": {
@@ -46,7 +46,7 @@ let catalogoDeProdutos = {
         "Tomate",
         "Molho",
         ],
-        imagem: "imagens/lanches/passaportecarne.png"
+        imagem: "imagens/combos/combofile.png"
     },
 
     "produto-filezaofrango": {
@@ -62,14 +62,14 @@ let catalogoDeProdutos = {
             "Presunto",
             "Molho",
         ],
-        imagem: "imagens/lanches/passaportefrango.png"
+        imagem: "imagens/combos/combofiledefrango.png"
     },
 
     "produto-combo-segundafeira": {
         tipo: "lanche",
         nome: "Segunda-Feira",
-        precoRiscado: 25.00,
-        preco: 18.00,
+        precoRiscado: 29.00,
+        preco: 26.00,
         descricao: "Delecioso Passaporte + Caçulinha",
         ingredientes: [
             "Carne Moída",
@@ -80,7 +80,7 @@ let catalogoDeProdutos = {
             "Maionese",
             "Batata Palha"
         ],
-        imagem: "imagens/lanches/x-bacon.png"
+        imagem: "imagens/combos/combosegunda.png"
     },
 
 
@@ -88,7 +88,7 @@ let catalogoDeProdutos = {
         tipo: "lanche",
         nome: "Terça-Feira",
         precoRiscado: 25.00,
-        preco: 25.00,
+        preco: 19.00,
         descricao: "X-Burguer + Caçulinha",
         ingredientes: [ 
         "Hambúrguer",
@@ -98,7 +98,7 @@ let catalogoDeProdutos = {
         "Tomea",
         "Molho"
         ],
-        imagem: "imagens/lanches/passaportecarnesol.png"
+        imagem: "imagens/combos/combotercafeira.png"
     },
 
     "produto-combo-quartafeira": {
@@ -114,7 +114,7 @@ let catalogoDeProdutos = {
         "Tomate",
         "Molho",
       ],
-      imagem: "imagens/lanches/passaportemisto.png"
+      imagem: "imagens/combos/comboquarta.png"
     },
 
     "produto-combo-quintafeira": {
@@ -130,15 +130,15 @@ let catalogoDeProdutos = {
             "Presunto",
             "Molho",
       ],
-      imagem: "imagens/lanches/x-tudo.jpg"
+      imagem: "imagens/combos/comboquinta.png"
     },
 
     "produto-garotoVIP": {
       tipo: "lanche",
-      nome: "Misto Quente",
+      nome: "Garoto VIP",
       precoRiscado: 37.00,
       preco: 33.00,
-      descricao: "Misto Quente naquele modelo",
+      descricao: "Garoto VIP naquele modelo",
       ingredientes: [
         "Queijo",
         "Presunto",
@@ -150,7 +150,7 @@ let catalogoDeProdutos = {
         "Tomate",
         "Molho"
       ],
-      imagem: "imagens/lanches/mistoquente.png"
+      imagem: "imagens/lanches/arthurbabyatt.png"
     },
 
     "produto-garotoVIPEspecial": {
@@ -160,10 +160,17 @@ let catalogoDeProdutos = {
       preco: 36.00,
       descricao: "Queijo Quente naquele padrão",
       ingredientes: [
-        "Pão Assado na chapa",
-        "3 Fatias de Queijo"
+        "Queijo",
+        "Presunto",
+        "Filé de Frango",
+        "Filé de Alcatra",
+        "Bacon",
+        "2x Ovos",
+        "2x Hambúrguer's",
+        "Tomate",
+        "Molho"
       ],
-      imagem: "imagens/lanches/queijo-quente.jpg"
+      imagem: "imagens/lanches/especial4grande.png"
     },
 
     "produto-passaporte-carne": {
@@ -178,12 +185,12 @@ let catalogoDeProdutos = {
             "Tomate",
             "Batata Palha"
       ],
-      imagem: "imagens/lanches/americano2.png"
+      imagem: "imagens/lanches/passaportecarnealternativo.png"
     },
 
     "produto-passaporte-frango": {
       tipo: "lanche",
-      nome: "Passaporte de Frango",
+      nome: "Passaporte de Frango recheadão",
       precoRiscado: 24.00,
       preco: 19.00,
       descricao: "Baurú daquele jeito",
@@ -193,7 +200,7 @@ let catalogoDeProdutos = {
             "Tomate",
             "Batata Palha"
     ],
-      imagem: "imagens/lanches/bauruatt.png"
+      imagem: "imagens/lanches/passaportefrangoalternativo.png"
     },
 
     "produto-passaporte-misto": {
@@ -201,7 +208,7 @@ let catalogoDeProdutos = {
       nome: "Passaporte de Misto",
       precoRiscado: 26.00,
       preco: 21.00,
-      descricao: "Hambúrguer daquele jeito",
+      descricao: "Passaporte de Misto topado daquele jeito",
       ingredientes: [
             "Carne Moída",
             "Frango Desfiado",
@@ -209,7 +216,7 @@ let catalogoDeProdutos = {
             "Tomate",
             "Batata Palha"
     ],
-      imagem: "imagens/lanches/hamburgueratt.png"
+      imagem: "imagens/lanches/sanduichemistoalternativo.png"
     },
 
     "produto-passaporte-bacon": {
@@ -217,14 +224,14 @@ let catalogoDeProdutos = {
       nome: "Passaporte de Bacon",
       precoRiscado: 26.00,
       preco: 21.00,
-      descricao: "X Burguersão daquele jeito",
+      descricao: "Passaporte de Bacon topado demais",
       ingredientes: [
             "Carne Moída ou Frango Desfiado",
             "Bacon",
             "Tomate",
             "Batata Palha"
     ],
-      imagem: "imagens/lanches/x-burguer.png"
+      imagem: "imagens/lanches/passaportebaconatt.png"
     },
 
     "produto-passaporte-calabresa": {
@@ -240,7 +247,7 @@ let catalogoDeProdutos = {
             "Tomate",
             "Batata Palha"
     ],
-      imagem: "imagens/lanches/x-salsicha.png"
+      imagem: "imagens/lanches/passaportecalabresaalternativo.png"
     },
 
     "produto-xburguer": {
@@ -256,7 +263,24 @@ let catalogoDeProdutos = {
         "Tomate",
         "Molho"
         ],
-        imagem: "imagens/lanches/arthurbabyatt.png"
+        imagem: "imagens/lanches/hamburgueratt.png"
+    },
+
+    "produto-xbacon": {
+      tipo: "lanche",
+      nome: "X-Bacon",
+      precoRiscado: 22.00,
+      preco: 18.00,
+      descricao: "X-Bacon topadão daquele jeito",
+      ingredientes: [
+        "Hambúrguer",
+        "Queijo",
+        "Presunto",
+        "Bacon",
+        "Tomate",
+        "Molho"
+      ],
+      imagem: "imagens/lanches/x-bacon.png"
     },
 
     "produto-minuano": {
@@ -308,7 +332,7 @@ let catalogoDeProdutos = {
         "Tomate",
         "Molho",
     ],
-      imagem: "imagens/lanches/xfrango.png"
+      imagem: "imagens/lanches/Xalcatra.png"
     },
 
       "produto-xfile": {
@@ -343,7 +367,7 @@ let catalogoDeProdutos = {
         "Tomate",
         "Molho"
       ],
-      imagem: "imagens/lanches/xfile.png"
+      imagem: "imagens/lanches/xfileespecial.jpg"
     },
 
       "produto-xcoracao": {
@@ -362,7 +386,7 @@ let catalogoDeProdutos = {
         "Tomate",
         "Molho"
       ],
-      imagem: "imagens/lanches/xfile.png"
+      imagem: "imagens/lanches/xcoracaoatt.png"
     },
 
       "produto-filefrango": {
@@ -379,14 +403,14 @@ let catalogoDeProdutos = {
         "Molho",
         "Tomate"
       ],
-      imagem: "imagens/lanches/xfrango.png"
+      imagem: "imagens/lanches/filefrango.jpg"
     },
 
       "produto-filefrango-especial": {
       tipo: "lanche",
       nome: "Filé de Frango Especial",
       precoRiscado: 30.00,
-      preco: 26.00,
+      preco: 27.00,
       descricao: "Filé-Frango Especial topadão",
       ingredientes: [
         "Filé de Frango",
@@ -398,7 +422,7 @@ let catalogoDeProdutos = {
         "Molho",
         "Tomate"
       ],
-      imagem: "imagens/lanches/xfrango.png"
+      imagem: "imagens/lanches/filefrangoespecial.jpg"
     },
 
 
@@ -417,16 +441,45 @@ let catalogoDeProdutos = {
         "Molho",
         "Tomate"
       ],
-      imagem: "imagens/lanches/filebacon.png"
+      imagem: "imagens/lanches/xeggbacon.jpeg"
+    },
+
+
+
+        "produto-aguasemgas": {
+        tipo: "bebida",
+        nome: "Água Mineral" ,
+        precoRiscado: 4.00,
+        preco: 3.00 ,
+        descricao: "Água Mineral sem gás",
+        imagem: "imagens/bebidas/aguamineralgas.png"
+    },
+
+        "produto-aguacomgas": {
+        tipo: "bebida",
+        nome: "Água Mineral" ,
+        precoRiscado: 5.00,
+        preco: 4.00 ,
+        descricao: "Água Mineral com gás",
+        imagem: "imagens/bebidas/aguamineralgas.png"
+    },
+
+        "produto-h2o": {
+        tipo: "bebida",
+        nome: "H2O" ,
+        precoRiscado: 10.00,
+        preco: 8.00 ,
+        descricao: "H2O",
+        imagem: "imagens/bebidas/h20transparent.png"
     },
     
         "produto-cocamenor": {
         tipo: "bebida",
-        nome: "Coca-Cola em lata" ,
+        nome: "Coca-Cola Caçulinha" ,
         precoRiscado: 5.00,
         preco: 4.00 ,
         descricao: "Coca-Cola Caçulinha",
-        imagem: "imagens/bebidas/cocacola350ml.png"
+        imagem: "imagens/bebidas/cocacaculinhamodal2.png"
     },
 
         "produto-guaranamenor": {
@@ -435,14 +488,15 @@ let catalogoDeProdutos = {
         precoRiscado: 5.00,
         preco: 4.00 ,
         descricao: "Guaraná Caçulinha",
-        imagem: "imagens/bebidas/cocacola350ml.png"
+        imagem: "imagens/bebidas/guaranacaculinhamodal2.png"
     },
 
 
     "produto-cocacolalata": {
         tipo: "bebida",
         nome: "Coca-Cola em lata" ,
-        preco: 6.00 ,
+        precoRiscado: 9.00,
+        preco: 7.00 ,
         descricao: "Coca-Cola em lata de 250 ml",
         imagem: "imagens/bebidas/cocacola350ml.png"
     },
@@ -453,7 +507,7 @@ let catalogoDeProdutos = {
       precoRiscado: 8.00,
       preco: 7.00,
       descricao: "Guanará em lata de 250 ml",
-      imagem: "imagens/bebidas/GuaranaLataATTpngSFundo.png"
+      imagem: "imagens/bebidas/GuaranaLataATTpng.png"
     },
 
     "produto-fantalata": {
@@ -1204,14 +1258,6 @@ let scrollPosition = 0
 
     // FUNÇÃO VALOR DE TAXA DE ENTREGA
 
-  /* selectBairro.addEventListener('change', function() {
-
-        const bairroSelecionado = this.value
-        valorTaxaDeEntrega = precosEntrega[bairroSelecionado] || 0;
-
-        taxaEntrega.textContent = `Taxa de Entrega: R$ ${valorTaxaDeEntrega.toFixed(2).replace('.', ',')}`;
-
-    }) */
 
     
     let taxaEntrega = document.getElementById('taxaEntrega')
@@ -1232,18 +1278,21 @@ let scrollPosition = 0
 
           exibirModalDados.style.display = 'none'
           exibirModalPedido.style.display = 'block'
-          divItensListaPedido.textContent = ``
+          divItensListaPedido.innerHTML = '';
           precoItens = 0
+
+          const bairroSelecionado = document.getElementById('Bairro').value;
+          valorTaxaDeEntrega = precosEntrega[bairroSelecionado] || 0;
+
 
         itensCarrinho.forEach(function(item) {
 
+        
         let divControleItemIndividual = document.createElement('div');
+        divControleItemIndividual.classList.add('divControleItemIndividual')
 
         if (item.produto.tipo === 'lanche') {
         
-        divControleItemIndividual.classList.add('divControleItemIndividual')
-        
-
         let addPedido = document.createElement('li')
         addPedido.textContent = `Item: ${item.quantidade}x ${item.produto.nome} `;
         divControleItemIndividual.appendChild(addPedido)
@@ -1264,7 +1313,7 @@ let scrollPosition = 0
         addPreco.classList.add('precoFazerPedido')
         divControleItemIndividual.appendChild(addPreco)
         
-        divItensListaPedido.appendChild(divControleItemIndividual)
+        
         
         
 
@@ -1285,29 +1334,26 @@ let scrollPosition = 0
           divControleItemIndividual.appendChild(addPreco)
 
 
-          divControleItemIndividual.classList.add('divControleItemIndividual');
-          divItensListaPedido.appendChild(divControleItemIndividual)
+          
+          
         }
-
+        
         precoItens += item.produto.preco * item.quantidade
+          
+        divItensListaPedido.appendChild(divControleItemIndividual)
 
-        totalPreco.textContent = `Preço Total: R$ ${precoItens.toFixed(2).replace('.', ',')}`
+      });
 
-        taxaEntrega.textContent = `Taxa de Entrega: R$ ${valorTaxaDeEntrega.toFixed(2).replace('.', ',')}`;
-      })
+        const precoFinal = precoItens + valorTaxaDeEntrega
 
-      
+        totalPreco.textContent = `Preço Total: R$ ${precoFinal.toFixed(2).replace('.', ',')}`
 
-      // Calcula o preço final somando o preço dos itens e a taxa de entrega
+        taxaEntrega.textContent = `Taxa de Entrega: R$ ${valorTaxaDeEntrega.toFixed(2).replace('.', ',')}`
 
-      // Exibe a taxa de entrega no modal. Certifique-se de que o elemento `taxaEntrega` existe no seu HTML.
-      
+    };
 
-      
-      
-      
-      
-    }
+        
+
 
     const btnVoltarPedido = document.getElementById('voltarPedido')
         btnVoltarPedido.addEventListener('click', function() {
@@ -1388,17 +1434,17 @@ btnFinalizarPedidoWhatsApp.addEventListener('click', function () {
     .then(res => res.json())
     .then(data => {
         console.log(data.mensagem);
-        //alert('Pedido enviado para impressão!');
     })
     .catch(err => console.error('Erro ao enviar pedido:', err));
 
     // --- 7. Monta mensagem para WhatsApp ---
-    let mensagemWhatsApp = '*-- NOVO PEDIDO - ARTHUR LANCHES --*\n\n';
+    let mensagemWhatsApp = '*-- NOVO PEDIDO - SANDUBA DO GAROTO --*\n\n';
     mensagemWhatsApp += '*Dados do Cliente:*\n';
     mensagemWhatsApp += `Nome: ${nomeCliente}\n`;
     mensagemWhatsApp += `Telefone: ${telefoneCliente}\n`;
     mensagemWhatsApp += `Tipo de Pedido: ${tipoPedido === 'Entrega' ? 'Entrega' : 'Retirada'}\n`;
 
+    // Adiciona o endereço se o tipo de pedido for 'Entrega'
     if (tipoPedido === 'Entrega') {
         mensagemWhatsApp += '\n*Endereço de Entrega:*\n';
         mensagemWhatsApp += `Bairro: ${endereco.bairro}\n`;
@@ -1408,11 +1454,11 @@ btnFinalizarPedidoWhatsApp.addEventListener('click', function () {
     }
 
     mensagemWhatsApp += '\n*Itens do Pedido:*\n';
-    let totalFinalParaWhatsApp = 0;
+    let totalFinalParaWhatsApp = 0; // Inicializa a variável aqui
     if (itensCarrinho.length > 0) {
         itensCarrinho.forEach((item, index) => {
             let linhaItem = `${index + 1}. ${item.quantidade}x ${item.produto.nome} (R$ ${(item.produto.preco * item.quantidade).toFixed(2).replace('.', ',')})`;
-            if (item.observacao && item.observacao.trim() !== '') linhaItem += `\n  - Observação: ${item.observacao}`;
+            if (item.observacao && item.observacao.trim() !== '') linhaItem += `\n  - Observação: ${item.observacao}`;
             mensagemWhatsApp += linhaItem + '\n';
             totalFinalParaWhatsApp += item.produto.preco * item.quantidade;
         });
@@ -1420,12 +1466,21 @@ btnFinalizarPedidoWhatsApp.addEventListener('click', function () {
         mensagemWhatsApp += 'Nenhum item adicionado ao carrinho.\n';
     }
 
+    // Adiciona a taxa de entrega e calcula o total APÓS o loop
+    if (tipoPedido === 'Entrega') {
+        totalFinalParaWhatsApp += valorTaxaDeEntrega;
+        mensagemWhatsApp += `\nTaxa de Entrega: R$ ${valorTaxaDeEntrega.toFixed(2).replace('.', ',')}\n`;
+    }
+
     mensagemWhatsApp += `\n*Total do Pedido: R$ ${totalFinalParaWhatsApp.toFixed(2).replace('.', ',')}*\n`;
     mensagemWhatsApp += '\n*Informações de Pagamento:*\n';
     mensagemWhatsApp += `Forma de Pagamento: ${textoFormaPagamento}\n`;
-    mensagemWhatsApp += (textoFormaPagamento === 'Dinheiro' && valorTroco > 0) 
-        ? `Precisa de troco para: R$ ${valorTroco.toFixed(2).replace('.', ',')}\n` 
-        : 'Não precisa de troco.\n';
+    // Lógica para o troco: usa o valor digitado diretamente
+if (textoFormaPagamento === 'Dinheiro' && valorTroco > 0) {
+    mensagemWhatsApp += `: | Precisa de R$ ${valorTroco.toFixed(2).replace('.', ',')} de troco. \n`;
+} else {
+    mensagemWhatsApp += 'Não precisa de troco.\n';
+}
 
     // --- 8. Envia mensagem para WhatsApp ---
     const numeroWhatsApp = '5582999261614';
@@ -1436,7 +1491,6 @@ btnFinalizarPedidoWhatsApp.addEventListener('click', function () {
     document.querySelector('#ModalFazerPedido').style.display = 'none';
     document.body.style.overflow = 'auto';
 });
-
 
 
 
@@ -1495,6 +1549,7 @@ btnFinalizarPedidoWhatsApp.addEventListener('click', function () {
             novoP.textContent = 'Estamos funcionando!'
             openClose.appendChild(novoP)
 
+
         } else {
 
             let p2 = document.createElement('p')
@@ -1516,14 +1571,17 @@ btnFinalizarPedidoWhatsApp.addEventListener('click', function () {
             divFuncionamento.appendChild(p3)
 
             let p4 = document.createElement('p')
-            p4.textContent = '<- Visualizar os dias'
+            p4.textContent = '👈 Visualizar os dias'
             p4.classList.add('msgverhorarios')
             divFuncionamento.appendChild(p4)
 
-
+            let btnEntregaTaxa = document.querySelector('.btnEntrega')
+            btnEntregaTaxa.style.display = 'none'
 
             p3.addEventListener('click', function() {
             modalhorarios.style.display = 'block'
+
+            
         })
         }
 
@@ -1537,25 +1595,49 @@ btnFinalizarPedidoWhatsApp.addEventListener('click', function () {
     
     }
 
+
+
     exibirOpenClose();
 
-    let opcaoDinheiro = document.getElementById('pagamentoDinheiro')
+
+
+    let ModalEntrega = document.querySelector('#modalTaxaEntrega')
+    let btnEntregaTaxa = document.querySelector('.btnEntrega')
+    btnEntregaTaxa.addEventListener('click', function() {
+        ModalEntrega.style.display = 'block'
+    })
+
+    let btnfecharModalEntrega = document.querySelector('.close-button-taxas')
+
+    btnfecharModalEntrega.addEventListener('click', function() {
+      ModalEntrega.style.display = 'none'
+    })
+
+
+
+
+    let opcaoDinheiro = document.getElementById('Dinheiro')
     let divPIX = document.getElementById('controlePIX')
     let opcaoPIX = document.getElementById('Pix')
     let opcaoCartao = document.getElementById('pagamentoCartao')
     let opcaoTroco = document.getElementById('inputTroco')
+    let divformadePagamento = document.querySelector('.formas-pagamento')
 
     // Evento clique em dinheiro liberar opção troco.
     opcaoDinheiro.addEventListener('click', function () {
-      opcaoTroco.style.display = 'block'
+      opcaoTroco.style.display = 'flex'
+      divformadePagamento.style.marginBottom = '35px'
+
     })
 
     opcaoPIX.addEventListener('click', function() {
       opcaoTroco.style.display = 'none'
+      divformadePagamento.style.marginBottom = ''
     })
 
     opcaoCartao.addEventListener('click', function() {
       opcaoTroco.style.display = 'none'
+      divformadePagamento.style.marginBottom = ''
     })
 
 
@@ -1600,8 +1682,7 @@ btnFinalizarPedidoWhatsApp.addEventListener('click', function () {
 
       })
 
-      console.log("Elemento totalPreco: ", totalPreco);
-      console.log("Texto final no span: ", totalPreco.textContent);
+
 
 
 

@@ -39,7 +39,7 @@ main {
 }
 
 span {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: black;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
@@ -61,7 +61,7 @@ span {
 
 
 .bannermenu {
-    background-image: url(fachada3.png);
+    background-image: url(imagens/geral/fachadacomboteste2.png);
     background-size: cover;
     background-position: center;
     height: 200px;
@@ -130,9 +130,12 @@ span {
 
 
 .msghorariofuncionamento {
-    color: black;
-    padding: 2px;
-    font-family: "Quicksand", sans-serif;
+    background-color: rgb(137, 164, 97);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 5px;
+    margin-bottom: 5px;
+    font-family: "Poppins", sans-serif;
     font-optical-sizing: auto;
     font-weight: bolder;
     font-style: normal;
@@ -146,12 +149,14 @@ span {
     flex-direction: row;
     align-items: center;
     gap: 5px;
+    border-radius: 2px;
+    padding: 3px 5px;
 }
 
 .msgverhorarios {
-    color: black;
+    color: white;
     padding: 2px;
-    font-family: "Quicksand", sans-serif;
+    font-family: "Poppins", sans-serif;
     font-optical-sizing: auto;
     font-weight: bolder;
     font-style: normal;
@@ -226,11 +231,10 @@ span {
 
 /* Parágrafo do menu */
 .pmenu {
-    font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
     font-weight: bolder;
-    font-style: normal;
-    font-size: 1.3rem;
+    font-size: 1rem;
     color: black;
     text-align: center;
     padding: 10px;
@@ -319,6 +323,7 @@ span {
 
 .span-riscado-destaque {
     text-decoration: line-through;
+    color: gray;
 }
 
 .botaodestaque {
@@ -428,7 +433,7 @@ span {
     justify-content: center;
     align-items: center;
     height: 120px;
-    flex: 0 0 100px;
+    flex: 0 0 120px;
     overflow: hidden;
 }
 
@@ -479,7 +484,7 @@ span {
     border-radius: 15px;
     background-color: #EC6418;
     color: black;
-    padding: 5px 10px;
+    padding: 3px 5px;
     cursor: pointer;
     white-space: nowrap;
     position: relative;
@@ -562,7 +567,7 @@ span {
 
 .spanmenu {
     color: black;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 /* Cor de texto padrão para h4, p, span */
@@ -804,6 +809,53 @@ footer {
 }
 
 
+/* MODAL TAXA DE ENTREGA */
+
+#modalTaxaEntrega {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    width: 100%;
+    height: 60%;
+    margin-top: 100px;
+    display: none;
+
+}
+
+.conteudoModalTaxa {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 500px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    position: relative;
+}
+
+.close-button-taxas {
+    position: absolute;
+    left: 90%;
+    top: 5%;
+}
+
+.btnEntrega {
+    background-color: rgb(137, 164, 97);
+    color: white;
+    position: absolute;
+    font-size: 0.6rem;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+    border: none;
+    border-radius: 2px;
+    margin: 2%;
+    padding: 3px 5px;
+    left: 0%;
+    top: 23%;
+}
+
 
 /* MODAL HORÁRIOS */
 #modalhorarios {
@@ -955,6 +1007,7 @@ footer {
     justify-content: center;
     align-items: center;
     margin: auto;
+
     
     
 }
@@ -987,6 +1040,8 @@ footer {
     border-radius: 10px;
     margin-top: 10px;
 }
+
+
 
 .controles-quantidade {
     display: flex;
@@ -1198,19 +1253,19 @@ footer {
 .imgsugestao-cocacola250 {
     width: 100px;
     height: 80px;
-    margin-left: -2%;
+    margin-left: -6%;
 }
 
 .imgsugestao-guarana250 {
     width: 80px;
     height: 80px;
-    margin-left: -0%;
+    margin-left: -4%;
 }
 
 .imgsugestao-fanta250 {
     width: 90px;
     height: 80px;
-    margin-left: -3%;
+    margin-left: -6%;
 }
 
 .imgsugestao-soda250 {
@@ -1222,36 +1277,42 @@ footer {
 .imgsugestao-coca1L {
     width: 130px;
     height: 100px;
-    margin-left: -8%;
+    margin-left: -12%;
 }
 .imgsugestao-guarana1L {
     width: 60px;
     height: 100px;
-    margin-left: -0%;
+    margin-left: -4%;
 }
 
 .imgsugestao-fanta1L {
     width: 130px;
     height: 120px;
-    margin-left: -8%;
+    margin-left: -14%;
 }
 
-.imgsugestao-soda1L {
+.imgsugestao-aguaGas {
     width: 120px;
-    height:100px;
-    margin-left: -8%;
-}
-
-.imgsugestao-coca2L {
-    width: 130px;
-    height: 140px;
-    margin-left: -8%;
-}
-
-.imgsugestao-guarana2L {
-    width: 150px;
-    height: 140px;
+    height: 100px;
     margin-left: -12%;
+}
+
+.imgsugestao-cocacolamenor {
+    width: 120px;
+    height: 100px;
+    margin-left: -8%;
+}
+
+.imgsugestao-guaranamenor {
+    width: 120px;
+    height: 100px;
+    margin-left: -8%;
+}
+
+.imgsugestao-h20 {
+    width: 120px;
+    height: 120px;
+    margin-left: -14%;
 }
 
 .imgsugestao-fanta2L {
@@ -1264,6 +1325,12 @@ footer {
     width: 80px;
     height: 120px;
     margin-left: -5%;
+}
+
+.imgsugestao-aguaMineral {
+    width: 40px;
+    height: 100px;
+    margin-left: -2%;
 }
 
 .psugestao, .spansugestao {
@@ -1497,16 +1564,19 @@ footer {
     text-align: center;
 }
 
+.divTroco {
+    height: 4%;
+}
+
 #inputTroco {
-    margin-top: 15px;
-    width: 300px;
-    height: 20px;
+    margin-top: -25px;
+    width: 100%;
+    height: 100%;
     border-radius: 10px;
     border: none;
     padding: 8px;
-    top: 50%;
-    left: 20%;
-    position: absolute;
+    
+    
 }
 
 #itensListadosNoPedido {
@@ -1547,12 +1617,13 @@ footer {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
-    position: relative;
+    
 }
 
 .formas-pagamento {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     gap: 15px;
     margin-top: 5px;
     justify-content: center;
